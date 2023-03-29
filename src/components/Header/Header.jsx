@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <nav>
-            <a href="home"><img src="../../images/Logo.svg" alt="" /></a>
+            <a href="home"><img src="Logo.svg" alt="logo" /></a>
             <div>
                 {/* a*4[href=$]{$} */}
                 <a href="/order">Order</a>

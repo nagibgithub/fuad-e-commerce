@@ -1,8 +1,9 @@
 .carts {
-    background: rgba(255, 153, 0, 0.3);
+    background: #ff99004d;
     padding: 10px;
-    height: 100%;
     text-align: center;
+    position: fixed;
+    right: 0;
 }
 
 .carts p {

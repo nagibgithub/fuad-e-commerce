@@ -1,14 +1,16 @@
 import React from 'react';
-import './Header.css';
+import './Header.css'
+
 const Header = () => {
     return (
         <nav>
-            <img src="./src/images/Logo.svg" alt="logo" />
+            <a href="home"><img src="/src/images/Logo.svg" alt="" /></a>
             <div>
-                <a href="/Order">Order</a>
+                {/* a*4[href=$]{$} */ }
+                <a href="/order">Order</a>
                 <a href="/orderReview">Order Review</a>
                 <a href="/manageInventory">Manage Inventory</a>
-                <a href="/Login">Login</a>
+                <a href="/login">Login</a>
             </div>
         </nav>
     );

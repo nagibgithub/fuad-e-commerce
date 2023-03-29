@@ -8,6 +8,11 @@ nav {
     align-items: center;
     color: white;
     /* padding: 10px 0px; */
+    /* overflow: hidden; */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
 
 nav div a {

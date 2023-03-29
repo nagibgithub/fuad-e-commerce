@@ -1,0 +1,51 @@
+.carts {
+    background: rgba(255, 153, 0, 0.3);
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+.carts p {
+    text-align: left;
+    padding: 5px;
+}
+
+.carts-amount div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.cart-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-btn button {
+    padding: 15px;
+    margin: 5px;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+
+.review-btn {
+    background: #FF9900;
+    border-radius: 4px;
+}
+
+.review-btn:hover {
+    color: #FF9900;
+    background-color: white;
+}
+
+.clear-btn {
+    background: #FF3030;
+    border-radius: 4px;
+}
+
+.clear-btn:hover {
+    color: #FF3030;
+    background-color: white;
+}
